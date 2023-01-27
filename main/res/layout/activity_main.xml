@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="#000000"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#000000"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/efefsef"
+                    style="@android:style/Widget.ImageButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:backgroundTint="#00000000"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@android:color/transparent" />
+
+                <FrameLayout
+
+                    android:id="@+id/ButtonsfPack"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/imageefsView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/butt1" />
+
+                    <Button
+                        android:id="@+id/butti"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00FFFFFF"
+                        android:onClick="AC_Clicked"
+                        android:text="AC"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="#000000"
+                        android:textSize="33dp" />
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:id="@+id/ButtefesonPack"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/imageViesfeew4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/butt1" />
+
+                    <Button
+                        android:id="@+id/buttii4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00FFFFFF"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:onClick="buttx_Clicked"
+                        android:text="⁺/₋"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textColor="#000000"
+                        android:textSize="30dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:id="@+id/ButtoesfnPack"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/imaesfgeView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/butt1" />
+
+                    <Button
+                        android:id="@+id/buttvvvvv2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00FFFFFF"
+                        android:fontFamily="monospace"
+                        android:onClick="buttdarsad_Clicked"
+                        android:text="%"
+                        android:textColor="@color/black"
+                        android:textSize="39dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:id="@+id/ButefstonPack"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/imageviewvvvvv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/butt3" />
+
+                    <Button
+                        android:id="@+id/buttvvvvv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00FFFFFF"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:onClick="buttvvvvv_Clicked"
+                        android:text="÷"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        android:textSize="47dp" />
+                </FrameLayout>
+
+                <ImageButton
+                    android:id="@+id/imageBgjkfgrgrutton2"
+                    style="@android:style/Widget.ImageButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:backgroundTint="#00000000"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@android:color/transparent" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#000000"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageBgrgruygjtton"
+                    style="@android:style/Widget.ImageButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:backgroundTint="#00000000"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@android:color/transparent" />
+
+                <FrameLayout
+
+                    android:id="@+id/BuyjttonPack"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/imageVgyjiew4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/butt2" />
+
+                    <Button
+                        android:id="@+id/butt7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00FFFFFF"
+                        android:fontFamily="@font/iosphone"
+                        android:onClick="onDigitClicked"
+                        android:text="7"
+                        android:textSize="36dp" />
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:id="@+id/ButtonPdgrack"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/imageVrdgiew4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/butt2" />
+
+                    <Button
+                        android:id="@+id/butt8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00FFFFFF"
+                        android:fontFamily="@font/iosphone"
+                        android:onClick="onDigitClicked"
+                        android:text="8"
+                        android:textSize="36dp" />
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:id="@+id/ButtuyiionPack"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/imageViewytyi4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/butt2" />
+
+                    <Button
+                        android:id="@+id/butt9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00FFFFFF"
+                        android:fontFamily="@font/iosphone"
+                        android:onClick="onDigitClicked"
+                        android:text="9"
+                        android:textSize="36dp" />
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:id="@+id/BuuyittonPack"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/imageVuyiiew4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/butt3" />
+
+                    <Button
+                        android:id="@+id/buttvvvv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00FFFFFF"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:onClick="buttvvvv_Clicked"
+                        android:text="×"
+                        android:textSize="47dp" />
+                </FrameLayout>
+
+                <ImageButton
+                    android:id="@+id/imageBgrgiyrutton2"
+                    style="@android:style/Widget.ImageButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:backgroundTint="#00000000"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@android:color/transparent" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#000000"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageBe4t4egrgrutton"
+                    style="@android:style/Widget.ImageButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:backgroundTint="#00000000"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@android:color/transparent" />
+
+                <FrameLayout
+
+                    android:id="@+id/Butte4t4onPack"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/imageVe4tt4iew4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/butt2" />
+
+                    <Button
+                        android:id="@+id/butt4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00FFFFFF"
+                        android:fontFamily="@font/iosphone"
+                        android:onClick="onDigitClicked"
+                        android:text="4"
+                        android:textSize="36dp" />
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:id="@+id/ButtonPa3wr3ck"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/imageVw3rw3iew4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/butt2" />
+
+                    <Button
+                        android:id="@+id/butt5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00FFFFFF"
+                        android:fontFamily="@font/iosphone"
+                        android:onClick="onDigitClicked"
+                        android:text="5"
+                        android:textSize="36dp" />
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:id="@+id/ButtonPacdfrak"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/imageViewafw4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/butt2" />
+
+                    <Button
+                        android:id="@+id/butt6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00FFFFFF"
+                        android:fontFamily="@font/iosphone"
+                        android:onClick="onDigitClicked"
+                        android:text="6"
+                        android:textSize="36dp" />
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:id="@+id/ButtonPesfeack"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/imageVesfgeiew4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/butt3" />
+
+                    <Button
+                        android:id="@+id/buttvvv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00FFFFFF"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:onClick="buttvvv_Clicked"
+                        android:text="−"
+                        android:textSize="47dp" />
+                </FrameLayout>
+
+                <ImageButton
+                    android:id="@+id/imageBgrsefgrutton2"
+                    style="@android:style/Widget.ImageButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:backgroundTint="#00000000"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@android:color/transparent" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#000000"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageBgrgruthdthton"
+                    style="@android:style/Widget.ImageButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:backgroundTint="#00000000"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@android:color/transparent" />
+
+                <FrameLayout
+
+                    android:id="@+id/ButtonrgtdPack"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/imageVdrgiew4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/butt2" />
+
+                    <Button
+                        android:id="@+id/butt1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00FFFFFF"
+                        android:fontFamily="@font/iosphone"
+                        android:onClick="onDigitClicked"
+                        android:text="1"
+                        android:textSize="36dp" />
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:id="@+id/ButtondrgrPack"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/imageViedrgw4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/butt2" />
+
+                    <Button
+                        android:id="@+id/butt2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00FFFFFF"
+                        android:fontFamily="@font/iosphone"
+                        android:onClick="onDigitClicked"
+                        android:text="2"
+                        android:textSize="36dp" />
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:id="@+id/ButtodrgrnPack"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/irdgrmageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/butt2" />
+
+                    <Button
+                        android:id="@+id/butt3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00FFFFFF"
+                        android:fontFamily="@font/iosphone"
+                        android:onClick="onDigitClicked"
+                        android:text="3"
+                        android:textSize="36dp" />
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:id="@+id/ButtonPrgdergack"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/imdrgdrageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scrollbarSize="45dp"
+                        app:srcCompat="@drawable/butt3" />
+
+                    <Button
+                        android:id="@+id/buttvv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00FFFFFF"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:onClick="buttvv_Clicked"
+                        android:text="+"
+                        android:textSize="47dp" />
+                </FrameLayout>
+
+                <ImageButton
+                    android:id="@+id/imageBgrgrutton2"
+                    style="@android:style/Widget.ImageButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:backgroundTint="#00000000"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@android:color/transparent" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#000000"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageBgrgrutton"
+                    style="@android:style/Widget.ImageButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:backgroundTint="#00000000"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@android:color/transparent" />
+
+                <FrameLayout
+
+                    android:id="@+id/ButtodrrgdrnPack"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:layout_weight="2">
+
+                    <ImageView
+                        android:id="@+id/imageVisefaeew4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/butt4" />
+
+                    <Button
+                        android:id="@+id/butt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00FFFFFF"
+                        android:fontFamily="@font/iosphone"
+                        android:gravity="center|left"
+                        android:onClick="onDigitClicked"
+                        android:text=" 0"
+                        android:textSize="36dp" />
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:id="@+id/ButtonsefraPack"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/imagaefsweeView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/butt2" />
+
+                    <Button
+                        android:id="@+id/buttvirgol"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00FFFFFF"
+                        android:fontFamily="@font/iosphone"
+                        android:onClick="virgol_Clicked"
+                        android:text="."
+                        android:textSize="43dp" />
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:id="@+id/ButtonPack"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/butt3" />
+
+                    <Button
+                        android:id="@+id/buttv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00FFFFFF"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:onClick="buttv_Clicked"
+                        android:text="="
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        android:textSize="47dp" />
+                </FrameLayout>
+
+                <ImageButton
+                    android:id="@+id/imageBgrgtu7rutton2"
+                    style="@android:style/Widget.ImageButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:backgroundTint="#00000000"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@android:color/transparent" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="3dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/viewInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:fontFamily="@font/iphonelight"
+            android:text="0"
+            android:textColor="#FFFFFF"
+            android:textSize="80dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
